@@ -1,0 +1,9 @@
+[project]
+name = "sentinel-eval-safety-suite"
+version = "0.1.0"
+description = "LLM evaluation and safety regression suite"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sentinel-eval = "sentinel_eval.cli:main"
